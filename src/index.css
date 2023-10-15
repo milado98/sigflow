@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sigflow-chevron {
+    @apply flex justify-between items-center rounded-md p-[10px] bg-[#E6E7EC] mt-8 text-black font-medium
+}
+
+.primary-btn {
+    @apply bg-[#32D583] md:py-2 md:px-4 py-1 px-2 md:rounded-lg rounded-lg md:text-sm text-xs text-white
+}
+
+.table-header {
+    @apply text-sm md:text-base px-4 pb-2 pt-3 text-left font-semibold
+}
+
+.table-name, .table-date, .table-status {
+    @apply text-sm md:text-base px-4 pb-2 pt-4 font-normal
+}
+
+.sub-menu-btn {
+    @apply h-3 md:h-4 md:pr-20
+}
+
+.pagination {
+    @apply text-xs md:text-sm rounded-lg bg-[#F5F5F5] text-[#828282] md:w-9 md:h-9 w-8 h-8
+}
+
+.paused-status {
+    @apply text-[10px] md:text-xs md:py-2 md:px-4 py-1 px-2 bg-[#ECFDF3] text-[#32D583] rounded-lg
+}
+
+.archived-status {
+    @apply text-[10px] md:text-xs md:py-2 md:px-4 py-1 px-2 bg-[#E0E0E0] text-white rounded-lg
+}
